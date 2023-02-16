@@ -6,7 +6,7 @@ int main() {
  
     scanf("%d", &cod);
     scanf("%d", &horas);
-    scanf("%d", &salario);
+    scanf("%f", &salario);
  
     salary_total = salario*horas;
  
