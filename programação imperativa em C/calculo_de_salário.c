@@ -4,9 +4,9 @@ int main() {
     int cod, horas;
     float salary_total, salario;
  
-    scanf("%d", cod);
-    scanf("%d", horas);
-    scanf("%d", salario);
+    scanf("%d", &cod);
+    scanf("%d", &horas);
+    scanf("%d", &salario);
  
     salary_total = salario*horas;
  
